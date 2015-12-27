@@ -9,11 +9,9 @@
 import Foundation
 import Cocoa
 
-private var sharedPlugin: DefaultMarginDisabler!
-
 class DefaultMarginDisabler: NSObject {
   private static var setupOnceToken: dispatch_once_t = 0
-
+  private static var sharedPlugin: DefaultMarginDisabler?
   private var bundle: NSBundle
 
   init(bundle: NSBundle) {
@@ -24,15 +22,15 @@ class DefaultMarginDisabler: NSObject {
   }
 
   deinit {
-    NSNotificationCenter.defaultCenter().removeObserver(self);
+    NSNotificationCenter.defaultCenter().removeObserver(self)
   }
 
   class func pluginDidLoad(bundle: NSBundle) {
     let appName = NSBundle.mainBundle().infoDictionary?["CFBundleName"] as? NSString
-    
+
     if appName == "Xcode" {
       dispatch_once(&setupOnceToken) {
-        sharedPlugin = DefaultMarginDisabler(bundle: bundle)
+        self.sharedPlugin = DefaultMarginDisabler(bundle: bundle)
       }
     }
   }
@@ -41,7 +39,7 @@ class DefaultMarginDisabler: NSObject {
     let center = NSNotificationCenter.defaultCenter()
 
     center.removeObserver(self, name: NSApplicationDidFinishLaunchingNotification, object: nil)
-    center.addObserver(self, selector: "popoverWillShowNotificationListener:", name: NSPopoverWillShowNotification, object: nil);
+    center.addObserver(self, selector: "popoverWillShowNotificationListener:", name: NSPopoverWillShowNotification, object: nil)
   }
 
   func popoverWillShowNotificationListener(notification: NSNotification) {
@@ -57,7 +55,7 @@ class DefaultMarginDisabler: NSObject {
          let t = btn.target {
 
         guard btn.enabled else {
-          return;
+          return
         }
 
         btn.state = NSOffState
