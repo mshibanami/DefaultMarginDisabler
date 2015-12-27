@@ -54,7 +54,7 @@ class DefaultMarginDisabler: NSObject {
       if let btn = buttons.first,
          let t = btn.target {
 
-        guard btn.enabled else {
+        guard btn.enabled && btn.state == NSOnState else {
           return
         }
 
