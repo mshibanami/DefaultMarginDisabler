@@ -10,4 +10,4 @@ You can install the plugin via [Alcatraz](http://alcatraz.io/), the plugin manag
 
 License
 -------
-The plugin is a [beerware](https://en.wikipedia.org/wiki/Beerware) licensed software. But I prefer coffee, cola or some soft drinks.
+The plugin is a [beerware](https://en.wikipedia.org/wiki/Beerware) licensed software.
