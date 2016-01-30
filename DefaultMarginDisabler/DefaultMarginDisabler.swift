@@ -59,7 +59,7 @@ class DefaultMarginDisabler: NSObject {
         }
 
         btn.state = NSOffState
-        NSTimer.scheduledTimerWithTimeInterval(0, target: t, selector: btn.action, userInfo: nil, repeats: false)
+        t.performSelector(btn.action)
       }
     }
   }
