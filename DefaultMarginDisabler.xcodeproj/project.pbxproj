@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		282DAD281C958B4E008A60F5 /* PluginLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282DAD271C958B4E008A60F5 /* PluginLoader.swift */; };
 		28A450BA1BFCCAE40098EF3C /* DefaultMarginDisabler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A450B91BFCCAE40098EF3C /* DefaultMarginDisabler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		282DAD271C958B4E008A60F5 /* PluginLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PluginLoader.swift; sourceTree = "<group>"; };
 		28A450AF1BFCCA940098EF3C /* DefaultMarginDisabler.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DefaultMarginDisabler.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A450B21BFCCA940098EF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28A450B91BFCCAE40098EF3C /* DefaultMarginDisabler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultMarginDisabler.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 			children = (
 				28A450B21BFCCA940098EF3C /* Info.plist */,
 				28A450B91BFCCAE40098EF3C /* DefaultMarginDisabler.swift */,
+				282DAD271C958B4E008A60F5 /* PluginLoader.swift */,
 			);
 			path = DefaultMarginDisabler;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28A450BA1BFCCAE40098EF3C /* DefaultMarginDisabler.swift in Sources */,
+				282DAD281C958B4E008A60F5 /* PluginLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

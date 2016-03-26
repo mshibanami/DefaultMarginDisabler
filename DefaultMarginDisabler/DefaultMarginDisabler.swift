@@ -10,8 +10,6 @@ import Foundation
 import Cocoa
 
 class DefaultMarginDisabler: NSObject {
-  private static var setupOnceToken: dispatch_once_t = 0
-  private static var sharedPlugin: DefaultMarginDisabler?
   private var bundle: NSBundle
 
   init(bundle: NSBundle) {
@@ -23,16 +21,6 @@ class DefaultMarginDisabler: NSObject {
 
   deinit {
     NSNotificationCenter.defaultCenter().removeObserver(self)
-  }
-
-  class func pluginDidLoad(bundle: NSBundle) {
-    let appName = NSBundle.mainBundle().infoDictionary?["CFBundleName"] as? NSString
-
-    if appName == "Xcode" {
-      dispatch_once(&setupOnceToken) {
-        self.sharedPlugin = DefaultMarginDisabler(bundle: bundle)
-      }
-    }
   }
 
   func xcodeDidFinishLaunching(notification: NSNotification) {
