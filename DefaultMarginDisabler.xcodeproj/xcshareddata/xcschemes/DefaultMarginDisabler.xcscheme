@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0710"
+   LastUpgradeVersion = "0500"
    version = "2.0">
    <BuildAction
-      parallelizeBuildables = "YES"
-      buildImplicitDependencies = "YES">
+      parallelizeBuildables = "NO"
+      buildImplicitDependencies = "NO">
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "28A450AE1BFCCA940098EF3C"
+               BlueprintIdentifier = "28B02B791D698CE100088E1C"
                BuildableName = "DefaultMarginDisabler.xcplugin"
                BlueprintName = "DefaultMarginDisabler"
+               ReferencedContainer = "container:DefaultMarginDisabler.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8966AFCA173EB7BF004150C0"
+               BuildableName = "DefaultMarginDisablerTests.xctest"
+               BlueprintName = "DefaultMarginDisablerTests"
                ReferencedContainer = "container:DefaultMarginDisabler.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,8 +61,17 @@
       <PathRunnable
          runnableDebuggingMode = "0"
          BundleIdentifier = "com.apple.dt.Xcode"
-         FilePath = "/Applications/Xcode.app">
+         FilePath = "/Applications/Xcode-beta.app">
       </PathRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "28B02B791D698CE100088E1C"
+            BuildableName = "DefaultMarginDisabler.xcplugin"
+            BlueprintName = "DefaultMarginDisabler"
+            ReferencedContainer = "container:DefaultMarginDisabler.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -58,15 +81,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "28A450AE1BFCCA940098EF3C"
-            BuildableName = "DefaultMarginDisabler.xcplugin"
-            BlueprintName = "DefaultMarginDisabler"
-            ReferencedContainer = "container:DefaultMarginDisabler.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

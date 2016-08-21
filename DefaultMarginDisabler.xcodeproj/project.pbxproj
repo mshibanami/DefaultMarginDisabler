@@ -7,64 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		282DAD281C958B4E008A60F5 /* PluginLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282DAD271C958B4E008A60F5 /* PluginLoader.swift */; };
-		28A450BA1BFCCAE40098EF3C /* DefaultMarginDisabler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A450B91BFCCAE40098EF3C /* DefaultMarginDisabler.swift */; };
+		28B02B7F1D698CE100088E1C /* DefaultMarginDisabler.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 28B02B7E1D698CE100088E1C /* DefaultMarginDisabler.xcscheme */; };
+		28B02B821D698CE100088E1C /* DefaultMarginDisabler.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B02B811D698CE100088E1C /* DefaultMarginDisabler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		282DAD271C958B4E008A60F5 /* PluginLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PluginLoader.swift; sourceTree = "<group>"; };
-		28A450AF1BFCCA940098EF3C /* DefaultMarginDisabler.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DefaultMarginDisabler.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
-		28A450B21BFCCA940098EF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28A450B91BFCCAE40098EF3C /* DefaultMarginDisabler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultMarginDisabler.swift; sourceTree = "<group>"; };
+		28B02B7A1D698CE100088E1C /* DefaultMarginDisabler.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DefaultMarginDisabler.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		28B02B7E1D698CE100088E1C /* DefaultMarginDisabler.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = DefaultMarginDisabler.xcscheme; path = DefaultMarginDisabler.xcodeproj/xcshareddata/xcschemes/DefaultMarginDisabler.xcscheme; sourceTree = SOURCE_ROOT; };
+		28B02B801D698CE100088E1C /* DefaultMarginDisabler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultMarginDisabler.h; sourceTree = "<group>"; };
+		28B02B811D698CE100088E1C /* DefaultMarginDisabler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultMarginDisabler.m; sourceTree = "<group>"; };
+		28B02B831D698CE100088E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		28A450AC1BFCCA940098EF3C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
-		28A450A61BFCCA940098EF3C = {
+		28B02B721D698CE100088E1C = {
 			isa = PBXGroup;
 			children = (
-				28A450B11BFCCA940098EF3C /* DefaultMarginDisabler */,
-				28A450B01BFCCA940098EF3C /* Products */,
+				28B02B7C1D698CE100088E1C /* DefaultMarginDisabler */,
+				28B02B7B1D698CE100088E1C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		28A450B01BFCCA940098EF3C /* Products */ = {
+		28B02B7B1D698CE100088E1C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28A450AF1BFCCA940098EF3C /* DefaultMarginDisabler.xcplugin */,
+				28B02B7A1D698CE100088E1C /* DefaultMarginDisabler.xcplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		28A450B11BFCCA940098EF3C /* DefaultMarginDisabler */ = {
+		28B02B7C1D698CE100088E1C /* DefaultMarginDisabler */ = {
 			isa = PBXGroup;
 			children = (
-				28A450B21BFCCA940098EF3C /* Info.plist */,
-				28A450B91BFCCAE40098EF3C /* DefaultMarginDisabler.swift */,
-				282DAD271C958B4E008A60F5 /* PluginLoader.swift */,
+				28B02B801D698CE100088E1C /* DefaultMarginDisabler.h */,
+				28B02B811D698CE100088E1C /* DefaultMarginDisabler.m */,
+				28B02B831D698CE100088E1C /* Info.plist */,
+				28B02B7D1D698CE100088E1C /* Supporting Files */,
 			);
 			path = DefaultMarginDisabler;
+			sourceTree = "<group>";
+		};
+		28B02B7D1D698CE100088E1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28B02B7E1D698CE100088E1C /* DefaultMarginDisabler.xcscheme */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28A450AE1BFCCA940098EF3C /* DefaultMarginDisabler */ = {
+		28B02B791D698CE100088E1C /* DefaultMarginDisabler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28A450B51BFCCA940098EF3C /* Build configuration list for PBXNativeTarget "DefaultMarginDisabler" */;
+			buildConfigurationList = 28B02B861D698CE100088E1C /* Build configuration list for PBXNativeTarget "DefaultMarginDisabler" */;
 			buildPhases = (
-				28A450AB1BFCCA940098EF3C /* Sources */,
-				28A450AC1BFCCA940098EF3C /* Frameworks */,
-				28A450AD1BFCCA940098EF3C /* Resources */,
+				28B02B771D698CE100088E1C /* Sources */,
+				28B02B781D698CE100088E1C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -72,68 +71,68 @@
 			);
 			name = DefaultMarginDisabler;
 			productName = DefaultMarginDisabler;
-			productReference = 28A450AF1BFCCA940098EF3C /* DefaultMarginDisabler.xcplugin */;
+			productReference = 28B02B7A1D698CE100088E1C /* DefaultMarginDisabler.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		28A450A71BFCCA940098EF3C /* Project object */ = {
+		28B02B731D698CE100088E1C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
-				ORGANIZATIONNAME = mshibanami;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Manabu Nakazawa";
 				TargetAttributes = {
-					28A450AE1BFCCA940098EF3C = {
-						CreatedOnToolsVersion = 7.1.1;
+					28B02B791D698CE100088E1C = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 28A450AA1BFCCA940098EF3C /* Build configuration list for PBXProject "DefaultMarginDisabler" */;
+			buildConfigurationList = 28B02B761D698CE100088E1C /* Build configuration list for PBXProject "DefaultMarginDisabler" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				ja,
 			);
-			mainGroup = 28A450A61BFCCA940098EF3C;
-			productRefGroup = 28A450B01BFCCA940098EF3C /* Products */;
+			mainGroup = 28B02B721D698CE100088E1C;
+			productRefGroup = 28B02B7B1D698CE100088E1C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28A450AE1BFCCA940098EF3C /* DefaultMarginDisabler */,
+				28B02B791D698CE100088E1C /* DefaultMarginDisabler */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		28A450AD1BFCCA940098EF3C /* Resources */ = {
+		28B02B781D698CE100088E1C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B02B7F1D698CE100088E1C /* DefaultMarginDisabler.xcscheme in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		28A450AB1BFCCA940098EF3C /* Sources */ = {
+		28B02B771D698CE100088E1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28A450BA1BFCCAE40098EF3C /* DefaultMarginDisabler.swift in Sources */,
-				282DAD281C958B4E008A60F5 /* PluginLoader.swift in Sources */,
+				28B02B821D698CE100088E1C /* DefaultMarginDisabler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		28A450B31BFCCA940098EF3C /* Debug */ = {
+		28B02B841D698CE100088E1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -173,10 +172,11 @@
 			};
 			name = Debug;
 		};
-		28A450B41BFCCA940098EF3C /* Release */ = {
+		28B02B851D698CE100088E1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -209,39 +209,30 @@
 			};
 			name = Release;
 		};
-		28A450B61BFCCA940098EF3C /* Debug */ = {
+		28B02B871D698CE100088E1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DefaultMarginDisabler/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Application Support/Developer/Shared/Xcode/Plug-ins";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.mshibanami.DefaultMarginDisabler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Debug;
 		};
-		28A450B71BFCCA940098EF3C /* Release */ = {
+		28B02B881D698CE100088E1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DefaultMarginDisabler/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Application Support/Developer/Shared/Xcode/Plug-ins";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.mshibanami.DefaultMarginDisabler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Release;
@@ -249,25 +240,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28A450AA1BFCCA940098EF3C /* Build configuration list for PBXProject "DefaultMarginDisabler" */ = {
+		28B02B761D698CE100088E1C /* Build configuration list for PBXProject "DefaultMarginDisabler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28A450B31BFCCA940098EF3C /* Debug */,
-				28A450B41BFCCA940098EF3C /* Release */,
+				28B02B841D698CE100088E1C /* Debug */,
+				28B02B851D698CE100088E1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28A450B51BFCCA940098EF3C /* Build configuration list for PBXNativeTarget "DefaultMarginDisabler" */ = {
+		28B02B861D698CE100088E1C /* Build configuration list for PBXNativeTarget "DefaultMarginDisabler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28A450B61BFCCA940098EF3C /* Debug */,
-				28A450B71BFCCA940098EF3C /* Release */,
+				28B02B871D698CE100088E1C /* Debug */,
+				28B02B881D698CE100088E1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 28A450A71BFCCA940098EF3C /* Project object */;
+	rootObject = 28B02B731D698CE100088E1C /* Project object */;
 }
