@@ -16,4 +16,4 @@ See more details about this problem at [this page](https://github.com/alcatraz/A
 
 License
 -------
-The plugin is a [beerware](https://en.wikipedia.org/wiki/Beerware) licensed software.
+Public Domain
